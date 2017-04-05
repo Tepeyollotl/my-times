@@ -1,0 +1,50 @@
+.header {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex; 
+	border-bottom: 1px solid black;
+	padding-bottom: 10px; 
+	align-items: center;
+}
+
+.nav {
+	display: inline-block;
+	justify-content: flex-end;
+	margin-left: auto;
+	flex-wrap: wrap;
+}
+
+.nav span {
+	margin: 0 20px 0 0;
+}
+
+a {
+	color: black;
+}
+
+.logo {
+	color: MediumAquamarine;
+	margin-left: 0px;
+	margin-right: 10px; 
+	display: inline-flex;
+	border: 1px solid black;
+	align-items: center;
+	padding: 0 535px 0 30px;
+	flex-grow: 1;
+}
+
+.logo p {
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
