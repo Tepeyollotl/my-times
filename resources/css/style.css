@@ -54,7 +54,6 @@ a {
 	max-width: 100%;
 	display: flex;
 	overflow: scroll;
-	border: 1px solid black;
 	padding: 15px 0 50px 0;
 	margin: 0px 10px 0px 10px;
 	position: relative;
@@ -65,49 +64,133 @@ a {
 	width: 630px;
 	flex: 3;
 	margin: 20px auto 0 auto;
-	border: 1px solid black;
 	margin-right: 35px;
+	flex-wrap: nowrap;
+	padding-bottom: 0;
 }
 
 .medium-column {
-	width: 300px;
+	width: 250px;
 	flex: 2;
 	margin: 20px auto 0 auto;
-	border: 1px solid black;
 	margin-right: 35px;
+	flex-wrap: nowrap;
+	flex-shrink: 3; 
 }
 
 .small-column {
 	width: 240px;
 	flex: 1;
 	margin: 20px auto 0 auto;
-	border: 1px solid black;
 	margin-right: 35px;
+	flex-wrap: nowrap;
+}
+
+.new-bites {
+	display: flex;
+	align-items: flex-start
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+}
+
+li {
+}
+
+.news-span {
+	direction: flex;
+	flex-direction: column;
 }
 
 .ph1 {
-	border: 1px solid black;
 	margin: 0px 0px;
 }
 
 .ph2 {
-	border: 1px solid black;
 	margin: 0px 0px;
 }
 
 .ph3 {
-	border: 1px solid black;
 	margin: 0px 0px;
 }
 
 plone {
-	border: 1px solid black;
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
 }
 
 .segment {
-	border: 1px solid black;
+	margin: 0px 0px;
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
 }
 
+/*------------------------ HEADLINE CONTENT -------------------------*/
+
+#headline1 {
+	padding-bottom: 160px;
+	background-image: url(/Users/amelgoza/Desktop/Projects/mytimes/resources/img/img-story-main.png);
+	font-size: 40px;
+	flex: 1;
+}
+
+#headline2 {
+	padding-bottom: 195px;
+	background-image: url(/Users/amelgoza/Desktop/Projects/mytimes/resources/img/img-story-2.png);
+	text-align: center;
+	flex: 1;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+#headline3 {
+	padding-bottom: 195px;
+	background-image:url(/Users/amelgoza/Desktop/Projects/mytimes/resources/img/img-story-3.png);
+	text-align: center;
+	flex: 1;
+	margin-top: 50px;
+}
+
+#headline4 {
+	padding-bottom: 265px;
+	background-image: url(/Users/amelgoza/Desktop/Projects/mytimes/resources/img/img-story-1.png);
+	background-size: cover;
+	flex: 1;
+	text-align: center;
+}
+
+.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+}
+
+/*----------------------------- Story Formation -------------------------------*/
+
+.s-container {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	
+}
+
+.story1 {
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px 0 0px;
+}
+
+.story2 {
+	display: flex;
+	flex-direction: column;
+}
 
 
 
