@@ -88,15 +88,31 @@ a {
 
 .new-bites {
 	display: flex;
-	align-items: flex-start
 }
 
 ul {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
+	align-items: stretch;
+	list-style: none;
+	padding: 20px 0 20px 0;
 }
 
 li {
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+	flex: 1;
+	border-bottom: 1px solid black;
+	padding: 15px 30px 
+}
+
+h3 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .news-span {
@@ -134,6 +150,7 @@ plone {
 #headline1 {
 	padding-bottom: 160px;
 	background-image: url(/Users/amelgoza/Desktop/Projects/mytimes/resources/img/img-story-main.png);
+	background-size: cover;
 	font-size: 40px;
 	flex: 1;
 }
@@ -150,6 +167,7 @@ plone {
 #headline3 {
 	padding-bottom: 195px;
 	background-image:url(/Users/amelgoza/Desktop/Projects/mytimes/resources/img/img-story-3.png);
+	background-size: cover;
 	text-align: center;
 	flex: 1;
 	margin-top: 50px;
@@ -192,7 +210,32 @@ plone {
 	flex-direction: column;
 }
 
+.footer {
+	display: flex;
+	flex-direction: column;
+	background-color: MediumAquamarine;
+	margin-top: 100px;
+	font-family: Verdana;
+	font-size: 12px;
+	padding-bottom: 50px;
+	align-items: center;
+	justify-content: center;
+}
 
+#white {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+#divider {
+	margin-left: 10px;
+}
+
+.link {
+	margin-left: 20px;
+}
 
 
 
